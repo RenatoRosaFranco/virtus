@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: therapy_sessions
+#
+#  id           :integer          not null, primary key
+#  end_time     :datetime
+#  start_time   :datetime
+#  status       :string
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#  patient_id   :integer
+#  therapist_id :integer
+#
+
+one:
+  therapist_id: 1
+  patient_id: 1
+  start_time: 2023-11-24 12:28:44
+  end_time: 2023-11-24 12:28:44
+  status: MyString
+
+two:
+  therapist_id: 1
+  patient_id: 1
+  start_time: 2023-11-24 12:28:44
+  end_time: 2023-11-24 12:28:44
+  status: MyString
